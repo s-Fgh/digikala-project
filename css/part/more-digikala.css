@@ -1,0 +1,63 @@
+.more__digikala {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .more__digikala__row {
+    padding: 8px 0px;
+    width: 1336px;
+    height: 104px;
+    display: flex;
+    justify-content: space-around;
+    .more__digikala__types {
+      width: 82px;
+      height: 104px;
+      img {
+        width: 52px;
+        height: 52px;
+      }
+      span {
+        width: 82px;
+        height: 10px;
+        padding-left: 30px;
+        margin-left: 50px;
+        display: inline-block;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 2.17;
+        text-align: center;
+        margin-top: 4px;
+      }
+    }
+    .more__digikala__more {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background-color: #f0f0f1;
+      .more {
+        width: 52px;
+        height: 52px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        svg {
+          width: 32px;
+          height: 32px;
+          padding-left: 4px;
+          padding-top: 5px;
+          fill: #888787;
+        }
+      }
+      .text__more {
+        width: 82px;
+        height: 48px;
+        display: inline-block;
+        font-size: 11px;
+        padding-right: 12px;
+        padding-top: 8px;
+      }
+    }
+  }
+}

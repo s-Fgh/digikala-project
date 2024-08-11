@@ -1,0 +1,118 @@
+.pink__slider{
+    cursor: pointer;
+    width: 84%;
+    height: 294px;
+    background-color: #d72e4e;
+    margin-right: 130px;
+    border-radius: 15px;
+    padding: 20px 0;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper-slide1{
+      width: 160px;
+      height: 255px;
+      padding: 0 16px;
+      margin: 0 20px;
+      background-color: #d72e4e;
+      .pink__text{
+        width: 88px;
+        height: 88px;
+      }
+      .discount__logo{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+      }
+      .see__all{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        a{
+          text-decoration: none;
+          color: white;
+          font-size: 12px;
+          margin-left: 3px;
+        }
+        svg{
+          width: 18px;
+          height: 18px;
+          fill: white;
+          scale: .8;
+        }
+      }
+    }
+    .swiper-slide{
+      padding: 8px;
+      display: inline-block;
+      .pink__slide__pic{
+        width: 132px;
+        height: 132px;
+      }
+      .pink__slide__text{
+        font-size: 12px;
+        color: #888787;
+        margin-top: 8px;
+      }
+      .price__line{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        .discount{
+          display: inline-block;
+          background-color: #d63755;
+          width: 34px;
+          height: 20px;
+          border-radius: 6px;
+          font-size: 14px;
+          line-height: 20px;
+          color: white;
+          font-family: Homa;
+        }
+        .price{
+          color: #3f4064;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          column-gap: 3px;
+          font-family: Homa;
+          svg{
+            width: 16px;
+            height: 16px;
+          }
+        }
+        
+      }
+      .last__row{
+        span{
+          text-decoration: line-through;
+          color: #d1cfcf;
+          font-size: 14px;
+          font-family: Homa;
+          display: block;
+          text-align: left;
+          margin-left: 14px;
+        }
+      }
+    }
+  }

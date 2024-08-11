@@ -1,0 +1,171 @@
+.blue__border{
+    width: 1336px;
+    height: 96px;
+    margin: 0 auto;
+    border-radius: 16px;
+    .blue__border__info{
+        width: 1336px;
+        height: 88px;
+        border-radius: 16px;
+        background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+        display: flex;
+        align-items: center;
+        .blue__border__info__right{
+            width: 119px;
+            height: 33px;
+            margin-right: 24px;
+            cursor: pointer;
+            img{
+                width: 119px;
+                height: 33px;
+            }
+        }
+        .blue__border__info__left{
+            width: 815px;
+            height: 64px;
+            display: flex;
+            row-gap: 4px;
+            margin-right: 365px;
+            justify-content: flex-end;
+            align-items: center;
+            .blue__border__info__left__1{
+                width: 274px;
+                height: 64px;
+                background-color: white;
+                cursor: pointer;
+                border-radius: 0 8px 8px 0;
+                margin-left: 5px;
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .blue__border__info__left__1__right{
+                        width: 86px;
+                        height: 26px;
+                        margin-right: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        div{
+                            svg{
+                                width: 20px;
+                                height: 20px;
+                                fill: #00bfd6;
+                                margin-top: 10px;
+                                margin-left: 8px;
+                            }
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                    }
+                    .blue__border__info__left__1__left{
+                        width: 168px;
+                        height: 60px;
+                        img{
+                            width: 168px;
+                            height: 60px;
+                            margin-top: 3px;
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+            .blue__border__info__left__2{
+                width: 274px;
+                height: 64px;
+                background-color: white;
+                cursor: pointer;
+                margin-left: 5px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .blue__border__info__left__2__right{
+                        width: 86px;
+                        height: 26px;
+                        margin-right: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        div{
+                            svg{
+                                width: 20px;
+                                height: 20px;
+                                fill: #00bfd6;
+                                margin-top: 10px;
+                                margin-left: 8px;
+                            }
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                    }
+                    .blue__border__info__left__2__left{
+                        width: 168px;
+                        height: 60px;
+                        img{
+                            width: 168px;
+                            height: 60px;
+                            margin-top: 3px;
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+            .blue__border__info__left__3{
+                width: 274px;
+                height: 64px;
+                background-color: white;
+                cursor: pointer;
+                border-radius: 8px 0px 0px 8px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .blue__border__info__left__3__right{
+                        width: 86px;
+                        height: 26px;
+                        margin-right: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        div{
+                            svg{
+                                width: 20px;
+                                height: 20px;
+                                fill: #00bfd6;
+                                margin-top: 10px;
+                                margin-left: 8px;
+                            }
+                        }
+                        span{
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+                    }
+                    .blue__border__info__left__3__left{
+                        width: 168px;
+                        height: 60px;
+                        img{
+                            width: 168px;
+                            height: 60px;
+                            margin-top: 3px;
+                            border-radius: 8px 0px 0px 8px;
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

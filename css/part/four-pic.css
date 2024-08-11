@@ -1,0 +1,22 @@
+.images__4__1{
+    width: 1336px;
+    height: 241.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    cursor: pointer;
+    .each__images{
+      width: 1336px;
+      height: 241.5px;
+      display: flex;
+      justify-content: space-between;
+      img{
+        width: 322px;
+        height: 241.5px;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+    }
+  }

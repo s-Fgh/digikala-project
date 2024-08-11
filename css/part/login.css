@@ -1,0 +1,89 @@
+.login__border{
+    width: 400px;
+    height: 438px;
+    padding: 32px;
+    border: 1px solid rgb(224, 224, 226);
+    margin: 170px auto;
+    border-radius: 8px;
+    .login__border__up{
+        width: 334px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 150px;
+            height: 40px;
+        }
+    }
+    .login__border__down{
+        h1{
+            margin-top: 16px;
+            font-size: 19px;
+            font-weight: 700;
+            width: 334px;
+            height: 40px;
+            span{
+                font-weight: bold;
+            }
+        }
+        .hi{
+            height: 26px;
+            width: 334px;
+            margin-top: 16px;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgb(63, 64, 100);
+        }
+        .line__text{
+            height: 26px;
+            width: 334px;
+            margin-bottom: 16px;
+            font-size: 12px;
+            font-weight: 400;
+            color: rgb(63, 64, 100);
+        }
+        form{
+            label{
+                div{
+                    border: 1px solid rgb(22, 159, 194);
+                    padding: 0 8px;
+                    background-color: white;
+                    border-radius: 8px;
+                    input{
+                        width: 316px;
+                        height: 48px;
+                        font-size: 15px;
+                        padding: 8px;
+                        outline: unset;
+                        border: unset;
+                    }
+                }
+            }
+            .red__login__btn{
+                cursor: pointer;
+                width: 324px;
+                height: 54px;
+                padding: 12px 16px;
+                border: 1px solid rgb(239, 64, 86);
+                margin-top: 32px;
+                margin-right: 5px;
+                border-radius: 8px;
+                background-color: rgb(239, 64, 86);
+                div{
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+            p{
+                width: 334px;
+                height: 24px;
+                margin-top: 16px;
+                font-size: 11px;
+                a{
+                    color: rgb(0, 142, 178);
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.two__images{
+    width: 1336px;
+    height: 264px;
+    margin: 0 auto;
+    cursor: pointer;
+    .two__images__each__one{
+        width: 1336px;
+        height: 264px;
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 660px;
+            height: 264px;
+            border-radius: 16px;
+        }
+    }
+    
+}

@@ -1,0 +1,40 @@
+.green__btn{
+    width: 130px;
+    height: 52px;
+    padding: 10px 12px;
+    background-color: rgb(2, 154, 73);
+    border-radius: 25px;
+    position: fixed;
+    left: 16px;
+    bottom: 32px;
+    z-index: 55;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        width: 70px;
+        height: 21px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+    }
+    .green__btn__hide__part{
+        width: 142px;
+        height: 32px;
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        display: none;
+    }
+    .green__btn__icon{
+        width: 28px;
+        height: 28px;
+        margin-right: 8px;
+        svg{
+            width: 28px;
+            height: 28px;
+            fill: white;
+        }
+    }
+}
